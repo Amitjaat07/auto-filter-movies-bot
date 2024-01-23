@@ -121,7 +121,7 @@ HAS_SSL=bool(getenv('HAS_SSL',False))
 if HAS_SSL:
     URL = "https://movies-bot-s8ql.onrender.com".format(FQDN)
 else:
-    URL = "https://lazykrishna-b305ab75bb77.herokuapp.com/".format(FQDN)
+    URL = "https://movies-bot-s8ql.onrender.com".format(FQDN)
 
 
 
