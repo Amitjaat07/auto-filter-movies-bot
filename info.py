@@ -22,7 +22,7 @@ API_HASH = environ.get('API_HASH', '')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 3600))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://graph.org/file/757070d72c171132ccb38.jpg')).split() #SAMPLE PIC
@@ -52,7 +52,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 BOT_USERNAME = environ.get('BOT_USERNAME', 'telegram')
 # Others
-VERIFY = bool(environ.get('VERIFY', False))
+VERIFY = bool(environ.get('VERIFY', True))
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'easysky.in')
 SHORTLINK_API = environ.get('SHORTLINK_API', '9e05a643d7c8eae2ba33493c2a5545f1256203bd')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
